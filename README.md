@@ -3,6 +3,19 @@ Tweet-Sentiment. Returns the tweets and the sentiment analysis. Even gives the n
 # Our System Architecture
 ![Tweetsentimentarch](https://user-images.githubusercontent.com/55101879/65399206-4cc8d900-dd89-11e9-985a-49c0dd987bcb.png)
 
+# User Stories
+#Sprint 1
+
+•	As a user, I want to get a summary of my feed.
+•	As a user, I want the sentiment analysis of my feed.
+•	As a user, I want the number of positive, negative and the vague tweets.
+#Sprint 2
+
+•	As a user, I want to access the positive and negative number of tweets from the other user I care, so that I can know more about him/her.
+•	As a News Company, I want to access the most important tweets, so that I can find the eye-catching topics easily.
+•	As a Mental Health Care Company, I want to access the negative number of tweets of a person, so that I can provide better consulting.
+•	As a Data Handling Company, I want to access the Vague tweets so that I can analyze the data. 
+
 # API
 You need to get credentials(API Key's) from both twitter developer and google cloud platform to use this program.
 
