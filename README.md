@@ -1,7 +1,7 @@
 # Tweet-Sentiment
 Tweet-Sentiment. Returns the tweets and the sentiment analysis. Even gives the number of positive,negative and vague tweets. Awesome right ?
 # Our System Architecture
-https://github.com/Cagriyoruk/Tweet-Sentiment/blob/master/master/Tweetsentimentarch.png?raw=true
+https://raw.githubusercontent.com/Cagriyoruk/Tweet-Sentiment/master/master/Tweetsentimentarch.png
 
 You need to get credentials(API Key's) from both twitter developer and google cloud platform to use this program.
 
