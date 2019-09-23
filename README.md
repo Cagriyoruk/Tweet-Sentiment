@@ -28,6 +28,6 @@ There are several steps to get a google Credential:
 
 After Installing and putting the Keys and activating the API. The program should work.
 
-Here is an Example of output:
+# Here is an Example of output:
 
 ![Tweet_Sentiment_example](https://user-images.githubusercontent.com/55101879/64929085-45d12200-d7ef-11e9-9a16-7317348924b1.png)
