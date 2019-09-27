@@ -6,11 +6,6 @@ from google.cloud import language
 from google.cloud.language import enums
 from google.cloud.language import types
 
-#Twitter API credentials
-consumer_key = "X7H00D6XtBLeEJuUenoEFsmsd"
-consumer_secret = "3Napkd1xkCb8f6974yioz5zby3lDwyx16EjzROgQLcfa7dnWJE"
-access_key = "1171124944215740416-Vamqr8eaMS5WXfQKQJzhXv8CVKbM3P"
-access_secret = "4EjaA1HQwb1a88uOSYzkxI5c8fBnP94EPd3gyk3T6ahxR"
 
 # Define a function returns the twitter feed
 def get_tweet():
