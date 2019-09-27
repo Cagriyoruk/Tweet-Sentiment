@@ -26,7 +26,9 @@ def language_analysis(text):
   sentiment = client.analyze_sentiment(document=document).document_sentiment
   return sentiment
 
-# Define a function to make 3 lists
+# Define a function to save tweets in 3 lists by positive,negative or neutral
+# Sentiment score and magnitute is also saved accordingly.
+# Total number is counted for each type.
 pos,neg,nea =[],[],[]
 
 totalP =0
@@ -69,22 +71,22 @@ def print_list(lst):
     print(e)
   print("---END-------------")
   return
-#main function
+# Main Function
 for tweet in get_tweet():
-  #print(tweet)
   sentiment_list(tweet)
+# Get users inputs to define types and quit the program 
 while 1:
-  list_sel = input("\n"+"What do you want to see (positive/negative/neatural)"+"\n"+"type Q to quit"+"\n")
+  list_sel = input("\n"+"What do you want to see (positive/negative/neutral)"+"\n"+"type Q to quit"+"\n")
   if list_sel == "positive":
     print_list(pos)
-    print("The total number of Positive Tweers: ",totalP)
+    print("The total number of Positive Tweets: ",totalP)
   if list_sel == "negative":
     print_list(neg)
-    print("The total number of Negiative Tweers: ",totalN)
-  if list_sel == "neatural":
+    print("The total number of Negative Tweets: ",totalN)
+  if list_sel == "neutral":
     print_list(nea)
-    print("The total number of Netural Tweers: ",totalE)
+    print("The total number of Neutral Tweets: ",totalE)
   if list_sel == "Q":
     break
   else:
-    print("please try again")
+    print("Please try again")
