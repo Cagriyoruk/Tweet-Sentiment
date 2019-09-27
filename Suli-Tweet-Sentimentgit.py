@@ -82,22 +82,9 @@ while 1:
     print_list(neg)
     print("The total number of Negiative Tweers: ",totalN)
   if list_sel == "neatural":
-    print_list(pos)
+    print_list(nea)
     print("The total number of Netural Tweers: ",totalE)
   if list_sel == "Q":
     break
   else:
     print("please try again")
-
-
-
-
-
-
-  #print(' The Sentiment Score is:',sentiment.score,'\n','The Sentiment Magnitude is:',sentiment.magnitude)
-#Sentiment Number Function Part
-  #for i in range(3):
-  #  sentiment_number_list[i] = sentiment_number_list[i] + list(sentiment_number())[i]
-#print('The total number of Positive tweets:',sentiment_number_list[0])
-#print('The total number of Negative tweets:',sentiment_number_list[1])
-#print('The total number of Vague tweets:',sentiment_number_list[2])
