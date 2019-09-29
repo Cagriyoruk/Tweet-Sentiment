@@ -19,16 +19,21 @@ def get_tweet():
   while 1:
     print("What do you want to do?","\n","1-Get tweets from my feed","\n","2-Get tweets from a user")
     select = input()
-    try:
-      numberoftweets = int(input("How many tweets do you want?"))
-    except ValueError:
-      print('That is not an integer. Start over')
-      continue
     if select == '1':
+      try:
+        numberoftweets = int(input("How many tweets do you want?"))
+      except ValueError:
+        print("That is not an integer. Start over")
+        continue
       tweets = auth_tweet.home_timeline(count = numberoftweets)
       break
     elif select == '2':
       name = input("Enter the user name:")
+      try:
+        numberoftweets = int(input("How many tweets do you want?"))
+      except ValueError:
+        print("That is not an integer. Start over")
+        continue
       tweets = auth_tweet.user_timeline(id = name,count = numberoftweets)
       break
     else:
