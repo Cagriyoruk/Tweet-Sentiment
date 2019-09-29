@@ -52,4 +52,4 @@ After Installing and putting the Keys and activating the API. The program should
 
 # Here is an Example of output:
 
-![](https://github.com/Cagriyoruk/Tweet-Sentiment/blob/master/In_Action.png)
+![In_Action](https://user-images.githubusercontent.com/55101879/65839353-724e6900-e2da-11e9-8034-891b23b670d6.png)
