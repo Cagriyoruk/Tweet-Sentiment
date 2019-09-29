@@ -8,6 +8,7 @@ from google.cloud.language import types
 
 # Import the twitter library
 import tweepy
+
 # Define a function to get
 def get_tweet():
   twitter_feed = []
@@ -18,12 +19,15 @@ def get_tweet():
   while 1:
     print("What do you want to do?","\n","1-Get tweets from my feed","\n","2-Get tweets from a user")
     select = input()
-    if select == '1':
+    try:
       numberoftweets = int(input("How many tweets do you want?"))
+    except ValueError:
+      print('That is not an integer. Start over')
+      continue
+    if select == '1':
       tweets = auth_tweet.home_timeline(count = numberoftweets)
       break
     elif select == '2':
-      numberoftweets = int(input("How many tweets do you want?"))
       name = input("Enter the user name:")
       tweets = auth_tweet.user_timeline(id = name,count = numberoftweets)
       break
