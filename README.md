@@ -31,6 +31,8 @@ Tweet-Sentiment. Returns the tweets and the sentiment analysis and gives the num
     • As a Data Handling Company, I want to access the Vague tweets so that I can analyze the data.  -2 -givennumber -neutral
 
 
+![Test-Case-Diagram](https://user-images.githubusercontent.com/55101879/65840183-ae39fc00-e2e3-11e9-876d-1a75629aacda.png)
+
 
 # API
 You need to get credentials(API Key's) from both twitter developer and google cloud platform to use this program.
