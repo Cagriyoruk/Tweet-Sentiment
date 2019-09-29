@@ -12,7 +12,7 @@ Tweet-Sentiment. Returns the tweets and the sentiment analysis and gives the num
 
     • As a user, I want the number of positive, negative and the vague tweets. -1 -numbers
 
-    • (For a given number of tweets)
+    • As a user, I want to be able to select the tweet amount so that I can read them based on the time I have.
 
 #Sprint 2
 
