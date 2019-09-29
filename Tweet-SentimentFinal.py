@@ -28,7 +28,7 @@ def get_tweet():
       tweets = auth_tweet.user_timeline(id = name,count = numberoftweets)
       break
     else:
-      print("What the hell are you doing???","\n","Try AGAIN!!!")
+      print("Are you a dumb monkey???","\n","Try AGAIN!!!")
   for tweet in tweets:
     twitter_feed = twitter_feed + [tweet.text]
   return twitter_feed
