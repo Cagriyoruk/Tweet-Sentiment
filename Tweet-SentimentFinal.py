@@ -16,12 +16,13 @@ def get_tweet():
   auth = tweepy.OAuthHandler("XXXXXXXXXX", "XXXXXXXXXX")
   auth.set_access_token("XXXXXXXXXX","XXXXXXXXXX")
   auth_tweet = tweepy.API(auth)
-  while 1:
+    while 1:
     print("What do you want to do?","\n","1-Get tweets from my feed","\n","2-Get tweets from a user")
     select = input()
     if select == '1':
       try:
-        numberoftweets = int(input("How many tweets do you want?"))
+        print("How many tweets do you want?")
+        numberoftweets = int(input())
       except ValueError:
         print("That is not an integer. Start over")
         continue
@@ -30,7 +31,8 @@ def get_tweet():
     elif select == '2':
       name = input("Enter the user name:")
       try:
-        numberoftweets = int(input("How many tweets do you want?"))
+        print("How many tweets do you want?")
+        numberoftweets = int(input())
       except ValueError:
         print("That is not an integer. Start over")
         continue
@@ -99,16 +101,16 @@ for tweet in get_tweet():
   sentiment_list(tweet)
 # Get users inputs to define types and quit the program 
 while 1:
+  print("The total number of Positive Tweets: ",totalP)
+  print("The total number of Negative Tweets: ",totalN)
+  print("The total number of Neutral Tweets: ",totalE)
   list_sel = input("\n"+"What do you want to see (positive/negative/neutral)"+"\n"+"type Q to quit"+"\n")
   if list_sel == "positive":
     print_list(pos)
-    print("The total number of Positive Tweets: ",totalP)
   if list_sel == "negative":
     print_list(neg)
-    print("The total number of Negative Tweets: ",totalN)
   if list_sel == "neutral":
     print_list(nea)
-    print("The total number of Neutral Tweets: ",totalE)
   if list_sel == "Q":
     break
   else:
