@@ -18,8 +18,6 @@ Tweet-Sentiment. Returns the tweets and the sentiment analysis and gives the num
 
     • As a user, I want to access the positive and negative number of tweets from the other user I care, so that I can know more about him/her.-2
 
-    • As a News Company, I want to access the most important tweets, so that I can find the eye-catching topics easily. 
-
     • As a Mental Health Care Company, I want to access the negative number of tweets of a person, so that I can provide better consulting. -2 -givennumber - negative
 
     • As a Data Handling Company, I want to access the Vague tweets so that I can analyze the data.  -2 -givennumber -neutral
