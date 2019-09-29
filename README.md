@@ -1,5 +1,5 @@
 # Tweet-Sentiment
-Tweet-Sentiment. Returns the tweets and the sentiment analysis. Even gives the number of positive,negative and vague tweets. Awesome right ?
+Tweet-Sentiment. Returns the tweets and the sentiment analysis. Even gives the number of positive,negative and neutral tweets. Awesome right ?
 # Our System Architecture
 ![Tweetsentimentarch](https://user-images.githubusercontent.com/55101879/65399206-4cc8d900-dd89-11e9-985a-49c0dd987bcb.png)
 
