@@ -62,3 +62,30 @@ After Installing and putting the Keys and activating the API. The program should
 # Here is an Example of output:
 
 ![In_Action](https://user-images.githubusercontent.com/55101879/65839353-724e6900-e2da-11e9-8034-891b23b670d6.png)
+
+# Lesson's Learned
+
+	# What we liked doing?
+
+		- We both liked the git/github working style. 
+
+		- Working seperately and merging them was a convenient tool for us.
+
+		- Working with API's was a new experience to us. 
+	
+	# What could we have done better?
+
+		- We could have try to work with the Vision api. 
+
+		- The learning process of branches and merging stuff was a really mess in the start. Created a lot of useless stuff :)
+
+		- Probably we should've left more time to test cases.
+
+	# What we will avoid in the future ?
+
+		- Probably gonna stop posting API Keys. 
+
+		- Be more minimal on creating branches.
+
+		- Try to edit and push files from git instead of uploading them manually.
+
